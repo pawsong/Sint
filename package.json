@@ -1,5 +1,6 @@
 {
-  "name": "sint",
+  "name": "@pawsong/sint",
+  "private": false,
   "version": "0.0.6",
   "description": "A Spreadsheet language interpreter",
   "main": "./lib/index.js",
