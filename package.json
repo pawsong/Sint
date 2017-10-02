@@ -11,7 +11,7 @@
     "dist": "mkdir -p ./dist && npm run babel && npm run browserify",
     "babel": "babel src -d lib",
     "browserify": "browserify lib/index.js -t [ babelify --comments false ] -t uglifyify --outfile dist/sint.min.js",
-    "publish": "git checkout release && npm run dist && npm publish ./"
+    "publish": "git checkout pawsong && npm run dist && npm publish ./"
   },
   "repository": {
     "type": "git",
